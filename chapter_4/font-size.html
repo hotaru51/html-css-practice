@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta description="font-sizeの確認">
+    <title>font-sizeの確認</title>
+    <style>
+      body {
+        font-size: 16px;
+      }
+      
+      div {
+        font-size: 0.8em;
+      }
+    </style>
+  </head>
+  <body>
+    bodyのフォントサイズ
+    <div>
+      body→divのフォントサイズ(16pxを継承したフォントサイズの0.8em = 約13px)
+      <div>
+        body→div→divのフォントサイズ(13pxを継承したフォントサイズの0.8em = 約10px)
+      </div>
+    </div>
+  </body>
+</html>
