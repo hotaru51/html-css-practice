@@ -5,8 +5,12 @@
     <meta description="画像にリンク">
     <title>画像にリンク</title>
     <style>
-      a:hover img {
-        opacity: 0.5;
+      .frame {
+        padding: 8px;
+        border: 1px solid transparent;
+      }
+      a:hover .frame {
+        border: 1px solid #ccc
       }
     </style>
   </head>
@@ -14,7 +18,7 @@
     <h1>画像にリンク</h1>
       <a href="http://www.lovelive-anime.jp/uranohoshi/" target="_blank">
         <div>
-          <img src="images/yosolo.jpg" alt="" width="396">
+          <img src="images/yosolo.jpg" alt="" width="396" class="frame">
         </div>
         <p>芦ノ湖と曜ちゃん</p>
       </a>
