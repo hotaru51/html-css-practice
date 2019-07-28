@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta description="サイドバーでのリスト">
+    <title>サイドバーでのリスト</title>
+    <style>
+      .sidebar {
+        padding: 8px;
+        border: 1px solid #ccc;
+        width: 300px;
+      }
+      .subnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .subnav li {
+        overflow: hidden;
+        margin: 1em 0 1em 0;
+      }
+      .subnav .thumb {
+        float: left;
+        width 100px;
+      }
+      .subnav .summary {
+        margin: 0 0 0 108px;
+      }
+      .subnav a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="recent">
+        <h3>最近の記事</h3>
+        <ul class="subnav">
+          <li>
+            <a href="#">
+              <img src="images/you.jpg" width="100" height="auto" class="thumb">
+              <p class="summary">ラブライブ！サンシャイン！ Aqoursメンバー「渡辺曜」</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/kotori.jpg" width="100" height="auto" class="thumb">
+              <p class="summary">ラブライブ！ μ'sメンバー「南ことり」</p>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </body>
+</html>
